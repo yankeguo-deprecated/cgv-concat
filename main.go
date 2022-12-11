@@ -54,7 +54,7 @@ func main() {
 		}
 		argv = append(argv, "-i", "title.png")
 
-		idTitle := len(names) + 1
+		idTitle := len(names)
 
 		fcBuf := &bytes.Buffer{}
 
